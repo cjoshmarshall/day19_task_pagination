@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <script src="script.js"></script>
+    <script src="contact.js"></script>
+</head>
+<body onload="pagination(),data(1)">
+    <div>
+        <h1>Pagination</h1>
+        <table class="table">
+            <thead class="thead">
+                <tr>
+                    <th scope="col" id="no">No.</th>
+                    <th scope="col" id="name">Name</th>
+                    <th scope="col" id="email">Email</th>
+                </tr>
+            </thead>
+            <tbody id="tBody">
+            </tbody>
+        </table>
+        <footer>
+            <ul id="pagination" class="pagination">
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
+
+
